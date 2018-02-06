@@ -27,6 +27,7 @@ function dividir()
 {
     var num1 = parseInt(document.getElementById("numeroUno").value);
     var num2 = parseInt(document.getElementById("numeroDos").value);
+
 	alert("La division es " + (num1 / num2));
 }
 
