@@ -13,14 +13,26 @@ var contadorIntentos;
 function comenzar()
 {
 	//Genero el número RANDOM entre 1 y 100
-	 
+  numeroSecreto = parseInt((Math.random() * 100) + 1);
 		//alert(numeroSecreto );
+  contadorIntentos = 0;
 	
 
 }
 
 function verificar()
 {
-	
+  document.write
+  contadorIntentos ++;
+	var num = document.getElementById("numero").value;
+
+  if (num < numeroSecreto)
+    alert("Te falta");
+
+  else if (num > numeroSecreto)
+    alert("Te pasaste");
+
+  else
+    alert("Bingo, lo adivinaste tras " + contadorIntentos + " intentos");
 	
 }

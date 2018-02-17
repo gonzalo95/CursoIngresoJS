@@ -6,10 +6,16 @@ function Mostrar()
 	if (nota >= 9)
 		alert("Excelente");
 
-	else if (nota > 4)
-		alert("Aprobo");
-		
+	else if (nota >= 7)
+		alert("Muy bien");
+
+	else if (nota >= 4)
+		alert("Bien");
+
+	else if (nota >= 2)
+		alert("Mal");
+
 	else
-		alert("Vamos, la proxima se puede");
+		alert("Pesimo");
 
 }//FIN DE LA FUNCIÓN
