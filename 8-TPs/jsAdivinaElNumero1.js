@@ -22,7 +22,7 @@ function comenzar()
 
 function verificar()
 {
-  document.write
+  document.getElementById("intentos").value = contadorIntentos;
   contadorIntentos ++;
 	var num = document.getElementById("numero").value;
 
