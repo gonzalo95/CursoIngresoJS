@@ -14,16 +14,16 @@ function comenzar()
 {
 	//Genero el número RANDOM entre 1 y 100
   numeroSecreto = parseInt((Math.random() * 100) + 1);
-		//alert(numeroSecreto );
   contadorIntentos = 0;
+  document.getElementById("intentos").value = contadorIntentos;
 	
 
 }
 
 function verificar()
 {
-  document.getElementById("intentos").value = contadorIntentos;
   contadorIntentos ++;
+  document.getElementById("intentos").value = contadorIntentos;
 	var num = document.getElementById("numero").value;
 
   if (num < numeroSecreto)
