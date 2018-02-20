@@ -12,6 +12,9 @@ function Mostrar()
 	while(respuesta != "no")
 	{
 		var num = parseInt(prompt("Ingrese un numero: "));
+
+		if (isNaN(num))
+			break;
 		
 		if (num > 0)
 		{

@@ -9,13 +9,16 @@ function Mostrar()
 	{
 		num = parseInt(prompt("Ingrese un numero: "));
 
+		if (isNaN(num))
+			break;
+
 		if (num >= 0)
 			positivo += num;
 
 		else
 			negativo *= num;
 
-		respuesta = prompt("¿Desea ungresar otro numero?");
+		respuesta = prompt("¿Desea ingresar otro numero?");
 	}
 
 
